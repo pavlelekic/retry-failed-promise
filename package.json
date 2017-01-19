@@ -1,0 +1,23 @@
+{
+  "name": "retry-failed-promise",
+  "version": "1.0.0",
+  "description": "It returns a single promise that will succeed as soon as the original promise succeeds in any of the retry attempts, or fail if all retry attempts fail.",
+  "main": "retryPromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlelekic/retry-failed-promise.git"
+  },
+  "keywords": [
+    "retry",
+    "promise"
+  ],
+  "author": "Pavle Lekic <lekic.pavle@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlelekic/retry-failed-promise/issues"
+  },
+  "homepage": "https://github.com/pavlelekic/retry-failed-promise#readme"
+}
