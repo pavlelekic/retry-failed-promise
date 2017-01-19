@@ -20,7 +20,7 @@ retryPromise(promiseGeneratorFn, 3)
   });
 ```
 
-#### Api
+### Api
 ```javascript
 retryFailedPromise(promiseGeneratorFn, maxRetries);
 ```
