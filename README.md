@@ -24,5 +24,5 @@ retryPromise(promiseGeneratorFn, 3)
 ```javascript
 retryFailedPromise(promiseGeneratorFn, maxRetries);
 ```
-It receives two arguments, the first one is a function that generates the promise (see Step 1), the second is maximum number of retries in case promise fails. It returns a single promise that will succeed as soon as the original promise succeeds in any retry attempts, or fail if all retry attempts fail.
+It receives two arguments, the first one is a function that generates the promise (see Step 1), the second is maximum number of retries in case promise fails. It returns a single promise that will succeed as soon as the original promise succeeds in any of the retry attempts, or fail if all retry attempts fail.
 
